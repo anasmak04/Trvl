@@ -5,8 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;}
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain; */
+}
 
 video {
     object-fit: cover;
@@ -14,4 +15,19 @@ video {
     height: 100%;
     position: fixed;
     z-index: -1;
+  }
+
+  .infos h1{
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .infos h2{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 12px;
   }
