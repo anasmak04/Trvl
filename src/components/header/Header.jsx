@@ -10,13 +10,15 @@ function Header () {
           <header>
                 <nav className='navbar'>
                     <div className="logo">
-                        <h1>logo</h1>
+                        <h1>TRVL </h1>
+                        <i className='fas fa-typo3' ></i>
+
                     </div>    
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className='nav-item'><Link to="/" onClick={handleClick}  className='nav-link ' >home</Link></li>
                         <li className='nav-item'><Link to="/" onClick={handleClick}  className='nav-link' >services</Link></li>
                         <li className='nav-item'><Link to="/" onClick={handleClick}  className='nav-link' href="">products</Link></li>
-                        <li className='nav-item'><Link to="/" onClick={handleClick}  className='nav-link' href="">sign up</Link></li>
+                        <li className='nav-item'><Link to="/" onClick={handleClick}  className='nav-link  btn' href="">sign up</Link></li>
                     </ul>
 
                     <div onClick={handleClick} className="nav-icon">
