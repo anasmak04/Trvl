@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import "./Header.css";
+import Section from "../vedioSection/SectionVedio"
 function Header () {
     const[click,setClick] = useState(false);
     const handleClick = () => setClick(!click)
@@ -37,6 +38,7 @@ function Header () {
                     <Route path='/signup' element={< signup/>}></Route>
                 </Routes> 
           </Router>
+          <Section />
             </div>
         );
     
