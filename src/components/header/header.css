@@ -50,3 +50,95 @@ header{
     border: 1px solid white;
     padding: 12px;
 }
+
+
+@media screen and (max-width:865px){
+    header{
+        height: 600px;
+    }
+
+    .nav-i{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .nav-icon{
+        display: flex;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        right: -100%;
+        background-color: #113448;
+        height: 100%;
+    }
+    
+    .nav-menu.active {
+        left:0;
+        transition: all 0.2s ease-in;
+
+    }
+    .nav-link {
+        position: relative;
+        top: 320px;
+         color: white;
+    }
+
+    .nav-link:hover{
+        padding: 40px 40px;
+        background-color: white;
+        color: black;
+    }
+    .nav-item {
+        
+        display: flex;
+        justify-content: center;
+   
+       
+     }
+ 
+      
+  
+     .nav-icon {
+         display: block;
+         cursor: pointer;
+         font-size: 1.9em;
+         top: 26px;
+         margin-right: 12px;
+         right: 0;
+         position: absolute;
+ 
+     }
+
+     .infos h1{
+         text-align: center;
+       
+     }
+
+     .infos p{
+         text-align: center;
+     }
+ 
+  
+
+}
+
+@media screen and (max-width:557px){
+    .infos h1{
+       text-align: center;
+        color: white;
+        font-size: 36px;
+    }
+    .infos p{
+     text-align: center;
+        color: #DFE5EC;
+        font-size: 18px;
+       width: 100%;
+    }
+  
+}
