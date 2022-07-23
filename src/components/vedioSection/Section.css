@@ -32,16 +32,40 @@ video {
       'Lucida Sans', Arial, sans-serif;
   }
   
-  .hero-btns {
-    margin-top: 32px;
+  .btns button{
+    margin:12px;
   }
-  
-  .hero-btns .btn {
-    margin: 6px;
+
+  .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
-  .fa-play-circle {
-    margin-left: 4px;
+  .btns button:nth-child(1){
+    padding:15px 20px;
+    background-color:transparent ;
+    color: white;
+    font-weight:200;
+    border:2px solid #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .btns button:nth-child(1):hover{
+    transition: 0.3s all ease-in;
+    background-color: #fff;
+    color: black;
+  }
+
+  .btns button:nth-child(2){
+    padding:15px 40px;
+    background-color:#fff ;
+    color: black;
+    font-weight:200;
+    border:none;
+    text-transform: uppercase;
+    font-size: 18px;
   }
   
   @media screen and (max-width: 960px) {
@@ -75,5 +99,9 @@ video {
   @media screen and (max-width:537px){
     .hero-container{
         text-align: center;
+    }
+
+    .btns{
+        flex-wrap: wrap;
     }
   }

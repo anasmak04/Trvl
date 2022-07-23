@@ -12,7 +12,7 @@ function SectionVedio (){
 <p>What are you waiting for?</p>
 <div className='btns'>
         <button>get started</button>
-        <button>get started</button>
+        <button>watch trailer</button>
       </div>
 </div>
         );

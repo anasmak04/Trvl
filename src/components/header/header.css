@@ -106,11 +106,8 @@ header{
        
     }
     .nav-item {
-        
         display: flex;
         justify-content: center;
-   
-       
      }
  
       .btn{
