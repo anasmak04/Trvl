@@ -3,13 +3,24 @@ import "./Home.css"
 class Home extends Component {
     render() {
         return (
-            <div className="con">
-                <h1>home page</h1>
-                <h1>home page</h1>
-                <h1>home page</h1>
-                <h1>home page</h1>
-                <h1>home page</h1>
-                <h1>home page</h1>
+            <div className="container">
+                <div className="hero-containe2">
+                <h1>Check out these EPIC Destinations!</h1>
+                <div className="parent">
+                    <div className="box">
+                        <div className="box-img">
+
+                        </div>
+                        <p>test box box box box boxbjjjjjjjjj</p>
+                        </div>
+
+                        <div className="box">
+<div className="box-img">
+    </div>                       
+     <p>test box box box box boxbjjjjjjjjj</p>
+                        </div>
+                        </div>
+                </div>
             </div>
         );
     }
