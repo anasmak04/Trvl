@@ -12,7 +12,7 @@ class Home extends Component {
 
                         </div>
                         <div className="text">
-                        <p>test box box box box boxbjjjjjjjjj</p>
+                        <p>explore the hidden waterful deep inside the amazon jungle</p>
 
                         </div>
                         </div>
@@ -21,13 +21,35 @@ class Home extends Component {
                         <div className="box-img">
                          </div>                       
                         <div className="text">
-                        <p>test box box box box boxbjjjjjjjjj</p>
+                        <p>travel through the islands of bali in a private cruise</p>
 
                         </div>                    
                             </div>
                             
                         </div>
+
+                        <div className="parent-child">
+                    <div className="child">
+                    <div className="child-image"></div>
+                    <div className='child-text'>
+                        <p>set sail in the athletic ocean visiting uncharted waters </p>
+                    </div>
+                    </div>
+                    <div className="child">
+                    <div className="child-image"></div>
+                    <div className='child-text'>
+                        <p>experience footbal on top of the himilayan mountains</p>
+                    </div>
+                    </div>
+                    <div className="child last">
+                    <div className="child-image"></div>
+                    <div className='child-text'>
+                        <p>ride through the sahara desert on the guided camel tour</p>
+                    </div>
+                    </div>
                 </div>
+                </div>
+          
             </div>
         );
     }
