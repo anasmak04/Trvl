@@ -18,12 +18,14 @@ class Home extends Component {
                         </div>
 
                         <div className="box">
-<div className="box-img">
-    </div>                       
-    <div className="text">
+                        <div className="box-img">
+                         </div>                       
+                        <div className="text">
                         <p>test box box box box boxbjjjjjjjjj</p>
 
-                        </div>                        </div>
+                        </div>                    
+                            </div>
+                            
                         </div>
                 </div>
             </div>
