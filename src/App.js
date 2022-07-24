@@ -1,7 +1,7 @@
 import 'font-awesome/css/font-awesome.min.css';
 import Header from './components/header/Header';
 import Section from "./components/vedioSection/SectionVedio"
-import Hye from "./components/Home"
+import Hye from "./components/main/Home"
 import Fotter from "./components/footer/Footer"
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
     <Fotter />
     </div>
   );
+
 }
 
 export default App;

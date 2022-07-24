@@ -85,7 +85,7 @@ header{
         position: fixed;
         right: -100%;
         background-color: #113448;
-        height: 88%;
+        height: 98%;
     }
     
     .nav-menu.active {
@@ -95,7 +95,7 @@ header{
     }
     .nav-link {
         position: relative;
-        top: 220px;
+        top: 240px;
          color: white;
     }
 
