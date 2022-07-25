@@ -78,6 +78,30 @@ li:nth-child(1){
 }
 
 
+.fotter-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.icone{
+    display: flex;
+}
+
+.x-footer p{
+    color: white;
+}
+
+.y-footer h1{
+    color: white;
+}
+
+.icone i{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
 @media screen and (max-width:601px){
     .list{
         flex-wrap:wrap;
@@ -91,5 +115,12 @@ li:nth-child(1){
 @media screen and (max-width:429px){
     .footer-contact{
         flex-wrap:wrap;
+    }
+}
+
+
+@media screen and (max-width:467px){
+    .fotter-list{
+        flex-direction: column;
     }
 }

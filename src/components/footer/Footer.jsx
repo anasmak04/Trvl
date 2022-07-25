@@ -52,10 +52,30 @@ function footer () {
                     <li>Facebook</li>
                     <li>Youtube</li>
                     <li>Twitter</li>
+
+
+              
                 </ul>
                 
                 </div>
-                
+
+                <div className="fotter-list">
+                    <div className='y-footer'>
+                        <h1>trvl</h1>
+                    </div>
+
+                    <div className='x-footer'>
+                        <p>TRVL © 2020</p>
+                    </div>
+
+                    <div className='icone'>
+                    <i className="fa fa-linkedin fa-2x"></i>
+                    <i className="fa fa-instagram fa-2x"></i>
+                    <i className="fa fa-twitter fa-2x"></i>
+                    <i className="fa fa-facebook-square fa-2x"></i>
+                    </div>
+
+                </div>
                 
                 </div>
             </div>
