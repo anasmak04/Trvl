@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import "./Header.css";
+import "./header.css";
 import Section from "../vedioSection/SectionVedio"
 function Header () {
     const[click,setClick] = useState(false);
@@ -12,8 +12,6 @@ function Header () {
                 <nav className='navbar'>
                     <div className="logo">
                         <h1>TRVL </h1>
-                        <i className='fas fa-typo3' ></i>
-
                     </div>    
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className='nav-item'><Link to="/" onClick={handleClick}  className='nav-link ' >home</Link></li>
